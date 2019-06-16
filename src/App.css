@@ -1,0 +1,369 @@
+/**
+*
+*	Name:			IRAN Sans-Serif Font
+*	Version:		5.0
+*	Author:			Moslem Ebrahimi (moslemebrahimi.com)
+*	Created on:		Dec 25, 2012
+*	Updated on:		Sep 01, 2017
+*	Website:		             http://fontiran.com
+*	Copyright:		Commercial/Proprietary Software
+--------------------------------------------------------------------------------------
+فونت های ایران سن سریف یک نرم افزار مالکیتی محسوب می شود. جهت آگاهی از قوانین استفاده از این فونت ها لطفا به وب سایت (فونت ایران دات کام) مراجعه نمایید
+--------------------------------------------------------------------------------------
+IRAN Sans-serif fonts are considered a proprietary software. To gain information about the laws regarding the use of these fonts, please visit www.fontiran.com
+--------------------------------------------------------------------------------------
+This set of fonts are used in this project under the license: (.....)
+--------------------------------------------------------------------------------------
+*
+**/
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: 900;
+    src: url('assets/fonts/eot/IRANSansWeb_Black.eot');
+    src: url('assets/fonts/eot/IRANSansWeb_Black.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+    url('assets/fonts/woff2/IRANSansWeb_Black.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+    url('assets/fonts/woff/IRANSansWeb_Black.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('assets/fonts/ttf/IRANSansWeb_Black.ttf') format('truetype');
+}
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: bold;
+    src: url('assets/fonts/eot/IRANSansWeb_Bold.eot');
+    src: url('assets/fonts/eot/IRANSansWeb_Bold.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+    url('assets/fonts/woff2/IRANSansWeb_Bold.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+    url('assets/fonts/woff/IRANSansWeb_Bold.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('assets/fonts/ttf/IRANSansWeb_Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: 500;
+    src: url('assets/fonts/eot/IRANSansWeb_Medium.eot');
+    src: url('assets/fonts/eot/IRANSansWeb_Medium.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+    url('assets/fonts/woff2/IRANSansWeb_Medium.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+    url('assets/fonts/woff/IRANSansWeb_Medium.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('assets/fonts/ttf/IRANSansWeb_Medium.ttf') format('truetype');
+}
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: 300;
+    src: url('assets/fonts/eot/IRANSansWeb_Light.eot');
+    src: url('assets/fonts/eot/IRANSansWeb_Light.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+    url('assets/fonts/woff2/IRANSansWeb_Light.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+    url('assets/fonts/woff/IRANSansWeb_Light.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('assets/fonts/ttf/IRANSansWeb_Light.ttf') format('truetype');
+}
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: 200;
+    src: url('assets/fonts/eot/IRANSansWeb_UltraLight.eot');
+    src: url('assets/fonts/eot/IRANSansWeb_UltraLight.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+    url('assets/fonts/woff2/IRANSansWeb_UltraLight.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+    url('assets/fonts/woff/IRANSansWeb_UltraLight.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('assets/fonts/ttf/IRANSansWeb_UltraLight.ttf') format('truetype');
+}
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: normal;
+    src: url('assets/fonts/eot/IRANSansWeb.eot');
+    src: url('assets/fonts/eot/IRANSansWeb.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+    url('assets/fonts/woff2/IRANSansWeb.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+    url('assets/fonts/woff/IRANSansWeb.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('assets/fonts/ttf/IRANSansWeb.ttf') format('truetype');
+}
+@media (max-width: 1280px) {
+    .sunSystem{
+        transform: translateX(-6.5em) scale(0.6) translatey(1.5em) !important;
+    }
+}
+@media (max-width: 768px) {
+    .sunSystem{
+        transform: translateX(-7.5em) scale(0.4) translatey(12.5em) !important;
+    }
+    .P1{
+        top: 3em!important;
+        transform: scale(0.9)!important;
+        left: 6em!important;
+    }
+    .P2{
+        top: -5em!important;
+        transform: scale(0.9)!important;
+        left: 15em!important;
+    }
+    .signUp{
+        margin-top: 5em!important;
+    }
+    .main{
+        background-size: 500px;
+    }
+    .App-logo{
+        width: 5rem!important;
+        right: 2em!important;
+        top: 1em!important;
+    }
+    .info{
+        position: initial!important;
+        top: initial!important;
+        left: initial!important;
+        transform: initial!important;
+        margin-top: 20em;
+    }
+    .info>p{
+        font-size: 15px!important;
+    }
+    .info>h2{
+        font-size: 30px!important;
+        font-weight: bold;
+    }
+    .shadow_button{
+        width: 226px!important;
+        height: 11px!important;
+        margin: auto!important;
+        padding: 5px;
+    }
+}
+body{
+    background: #0F1120!important;
+    font-family: "IRANSans";
+    overflow-x: hidden;
+}
+.container-fluid {
+    direction: rtl;
+    padding-left: 0!important;
+    margin-left: 0!important;
+    background: #0F1120;
+    width: 100%;
+}
+.main{
+    background-image: url("assets/images/Group 68.png");
+    width: 100%;
+    height: 100vh;
+}
+.App-logo{
+    width: 10rem;
+    right: 5em;
+    top: 1em;
+}
+h1,h2,h3,h4,p,a{
+    color: #FEFFFF;
+    text-align: right;
+    display: table;
+    font-family: "IRANSans";
+}
+p{
+    font-weight: 300;
+}
+h2{
+    font-weight: bold;
+}
+.shadow_button{
+    -webkit-border-radius: 54px;
+    -moz-border-radius: 54px;
+    border-radius: 54px;
+    width: 196px;
+    height: 40px;
+    padding: 20px;
+    background: linear-gradient(#F2A94F,#EA7F4E);
+    text-align: center;
+    color: #FEFFFF;
+    font-weight: lighter;
+    font-size: 25px;
+    vertical-align: center;
+    -webkit-box-shadow: 0px 21px 40px rgba(238, 147, 78, 0.35);
+    -moz-box-shadow: 0px 21px 40px rgba(238, 147, 78, 0.35);
+    box-shadow: 0px 21px 40px rgba(238, 147, 78, 0.35);
+    transition: ease-in-out 0.2s;
+}
+.shadow_button:hover{
+    -webkit-box-shadow: 0px 8px 20px rgba(238, 147, 78, 0.35);
+    -moz-box-shadow: 0px 8px 20px rgba(238, 147, 78, 0.35);
+    box-shadow: 0px 8px 20px rgba(238, 147, 78, 0.35);
+    transition: ease-in-out 0.2s;
+    text-decoration: none;
+    color: #FEFFFF!important;
+}
+.info{
+    position: absolute;
+    top: 50%;
+    left: 27%;
+    transform: translate(-12%, -50%);
+}
+.info>p{
+    font-size: 25px;
+}
+.info>h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+.rounds{
+    position: absolute;
+    /*width: ;*/
+    top: 5em;
+    left: 10em;
+    transform: translate(-10em, -10em);
+}
+.sun{
+    left: 9em;
+    top: 26em;
+    animation: PlanetRotate 60s infinite;
+}
+.s1{
+    top: 28em;
+    left: 47.5em;
+    animation: PlanetRotate 30s infinite ease-in-out;
+}
+.s2{
+    top: 34em;
+    left: 38.5em;
+    animation: PlanetRotate 10s infinite alternate ease-in-out;
+}
+.s3{
+    top: 39em;
+    left: 40.5em;
+}
+.s4{
+    top: 62em;
+    left: 11.5em;
+}
+.r1{
+    top: 28em;
+    left: 16em;
+    opacity: 0.6;
+}
+.r2{
+    top: 32em;
+    left: 16em;
+    opacity: 0.6;
+}
+.r3{
+    top: 35em;
+    left: 16em;
+    opacity: 0.6;
+}
+@keyframes PlanetRotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes PlanetOrbit {
+    from{
+        margin-top: -100px;
+    }
+    to{
+        margin-top: 0;
+    }
+}
+.sunSystem{
+    top: -8em;
+    transform: scale(0.8);
+}
+.signUp{
+    margin-top: 10em;
+}
+.shadow_button_form{
+    -webkit-border-radius: 54px;
+    -moz-border-radius: 54px;
+    border-radius: 54px;
+    border: none;
+    width: 100px;
+    height: 40px;
+    padding: 0px;
+    font-family: "IRANSans";
+    background: linear-gradient(#F2A94F,#EA7F4E);
+    text-align: center;
+    color: #FEFFFF;
+    font-weight: lighter;
+    font-size: 15px;
+    vertical-align: center;
+    -webkit-box-shadow: 0px 21px 40px rgba(238, 147, 78, 0.35);
+    -moz-box-shadow: 0px 21px 40px rgba(238, 147, 78, 0.35);
+    box-shadow: 0px 21px 40px rgba(238, 147, 78, 0.35);
+    transition: ease-in-out 0.2s;
+    margin-top: -3.4em;
+    margin-right: -0.5em;
+    float: right;
+}
+.shadow_button_form:hover{
+    -webkit-box-shadow: 0px 8px 20px rgba(238, 147, 78, 0.35);
+    -moz-box-shadow: 0px 8px 20px rgba(238, 147, 78, 0.35);
+    box-shadow: 0px 8px 20px rgba(238, 147, 78, 0.35);
+    transition: ease-in-out 0.2s;
+    text-decoration: none;
+    color: #FEFFFF!important;
+}
+.shadow_button_form:focus{
+    outline: none;
+}
+.input{
+    width: 95%;
+    border-radius: 68px;
+    background: #4C4345;
+    border: none;
+    padding: 20px;
+    z-index: -100;
+    float: left;
+    text-align: left;
+    color: #FEFFFF;
+
+}
+.P1{
+    position: absolute;
+    top: 6em;
+    transform: scale(0.7);
+    left: 6em;
+}
+.P2{
+    position: absolute;
+    top: 0em;
+    transform: scale(0.7);
+    left: 15em;
+}
+.sarea{
+    height: 80vh;
+}
+.notification{
+    border-radius: 1em;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color: #000;
+    font-family: "IRANSans";
+    font-size: 1.2rem;
+    padding:0.5em 1.2em 0.5em 1.2em;
+    z-index: 1000;
+    transition: ease-in-out 0.4s;
+    animation: hide 2.6s ease-in-out;
+    animation-iteration-count: 1;
+}
+.success{
+    background: #69f0ae;
+    box-shadow: rgba(105, 240, 174, 0.36) 0px 18px 48px;
+}
+.error{
+    background: #ff5252;
+    box-shadow: rgba(240, 82, 71, 0.36) 0px 18px 48px;
+
+}
+@keyframes hide {
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+.copyright{
+    position: absolute;
+    display: none;
+    float: right;
+    bottom: 0;
+    left: 0;
+}
