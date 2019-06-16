@@ -8,6 +8,7 @@ import S1 from './assets/images/Group 45.svg'
 import S2 from './assets/images/Group 48.svg'
 import S3 from './assets/images/Group 49.svg'
 import S4 from './assets/images/Group -3.svg'
+import Mars from './assets/images/Group 114.svg'
 import SD1 from './assets/images/Group 35.svg'
 import SD2 from './assets/images/Group 32.svg'
 import Sun from './assets/images/Sun.svg'
@@ -24,9 +25,10 @@ function App() {
     }
     function showMessage() {
         if (text!="" && validateEmail(text) && !messageState){
-            setMessage("عملیات با <b>موفقیت</b> انجام شد")
+            setMessage("هممم، سپاس")
             setMessageState(true)
             setType("success")
+            setText("")
             setTimeout(function () {
                 setMessageState(false)
             },2590)
@@ -47,7 +49,8 @@ function App() {
           <div className="container-fluid">
               <img src={logo} className="App-logo position-absolute" alt="logo" />
               <div className={"notification "+type} style={messageState?{display:"inherit"}:{display:"none"}}>
-                  {message.toLocaleString()}
+                  {/*<img src={Mars} className="notificationIcon" alt=""/>*/}
+                  {message.toString()}
               </div>
               <div className="row main">
                       <div className="col-md-6 col-xl-6 col-sm-12 sunSystem">
@@ -65,23 +68,23 @@ function App() {
                             <h2>پا به دنیای جدیدی بزاریم</h2>
                             <p>توی این دنیا قراره که با هم کارایی بکنیم که
                                 درس خوندن رو برامون ساده کنه</p>
-                            <a href="#new" className="shadow_button">
+                            <a href="#email" className="shadow_button">
                                 ثبت نام
                             </a>
                         </div>
                       </div>
               </div>
               <div className="row mt-2 sarea">
-                  <div className="col-md-4 col-xl-4 col-sm-12">
+                  <div className="col-md-3 col-xl-4 col-sm-12">
                       <img src={SD2} className="P1" alt=""/>
                   </div>
-                  <div className="col-md-4 col-xl-4 col-sm-12">
+                  <div className="col-md-6 col-xl-4 col-sm-12">
                       <div className="signUp" id='new'>
                           <h2>نام نویسی در رولا</h2>
                           <p>با عضویت زود هنگام در رولا شما کاربر ویژه ما خواهید شد</p>
                           <div className="inputPhone">
-                              <form action="#new"  onSubmit={showMessage}>
-                                  <input type="text" className="input" placeholder="Email" value={text} onChange={setNewText}/>
+                              <form action="#email"  onSubmit={showMessage}>
+                                  <input type="text" id="email" className="input" placeholder=" eg Loverdeveloper@outlook.com" value={text} onChange={setNewText}/>
                                   <button type="submit" className="shadow_button_form" >
                                       بفرست
                                   </button>
@@ -89,7 +92,7 @@ function App() {
                           </div>
                       </div>
                   </div>
-                  <div className="col-md-4 col-xl-4 col-sm-12">
+                  <div className="col-md-3 col-xl-4 col-sm-12">
                       <img src={SD1} className="P2" alt=""/>
                   </div>
               </div>

@@ -81,6 +81,11 @@ This set of fonts are used in this project under the license: (.....)
         transform: translateX(-6.5em) scale(0.6) translatey(1.5em) !important;
     }
 }
+@media (max-width: 400px) {
+    .signUp{
+        margin-top: 0!important;
+    }
+}
 @media (max-width: 768px) {
     .sunSystem{
         transform: translateX(-7.5em) scale(0.4) translatey(12.5em) !important;
@@ -88,15 +93,15 @@ This set of fonts are used in this project under the license: (.....)
     .P1{
         top: 3em!important;
         transform: scale(0.9)!important;
-        left: 6em!important;
+        left: 8em!important;
     }
     .P2{
-        top: -5em!important;
+        top: -1em!important;
         transform: scale(0.9)!important;
-        left: 15em!important;
+        left: 5em!important;
     }
     .signUp{
-        margin-top: 5em!important;
+        margin-top: 12em!important;
     }
     .main{
         background-size: 500px;
@@ -132,6 +137,9 @@ body{
     font-family: "IRANSans";
     overflow-x: hidden;
 }
+html{
+    scroll-behavior: smooth;
+}
 .container-fluid {
     direction: rtl;
     padding-left: 0!important;
@@ -141,6 +149,7 @@ body{
 }
 .main{
     background-image: url("assets/images/Group 68.png");
+    /*background-size: 700px;*/
     width: 100%;
     height: 100vh;
 }
@@ -178,6 +187,7 @@ h2{
     -moz-box-shadow: 0px 21px 40px rgba(238, 147, 78, 0.35);
     box-shadow: 0px 21px 40px rgba(238, 147, 78, 0.35);
     transition: ease-in-out 0.2s;
+    z-index: 3;
 }
 .shadow_button:hover{
     -webkit-box-shadow: 0px 8px 20px rgba(238, 147, 78, 0.35);
@@ -208,8 +218,8 @@ h2{
     transform: translate(-10em, -10em);
 }
 .sun{
-    left: 9em;
-    top: 26em;
+    left: 11em;
+    top: 27em;
     animation: PlanetRotate 60s infinite;
 }
 .s1{
@@ -312,25 +322,33 @@ h2{
     float: left;
     text-align: left;
     color: #FEFFFF;
-
+}
+.input:focus{
+    outline: none;
+}
+.notificationIcon{
+    position: absolute;
+    transform: scale(0.5) translate(+5em,-7em);
 }
 .P1{
     position: absolute;
     top: 6em;
     transform: scale(0.7);
     left: 6em;
+    z-index: 0;
 }
 .P2{
     position: absolute;
     top: 0em;
     transform: scale(0.7);
     left: 15em;
+    z-index: 0;
 }
 .sarea{
     height: 80vh;
 }
 .notification{
-    border-radius: 1em;
+    border-radius: 2em;
     position: fixed;
     bottom: 10px;
     right: 10px;
